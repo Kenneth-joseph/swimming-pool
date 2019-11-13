@@ -38,7 +38,7 @@ color:white;
 font-family: 'Oswald', sans-serif;
 
 }
-#R_t , .contact_h{
+#R_t , .contact_h, .about{
      font-family: 'Oswald', sans-serif;
      margin-top: 20px;
 }
@@ -67,6 +67,8 @@ font-family: 'Oswald', sans-serif;
 .contact{
     background-color: grey;
     height: 50vh;
+    color: white;
+    padding-top:20px;
 }
 .contact_h{
     margin: 0% auto;
