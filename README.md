@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 499ca7506b7fb976fda93acf92db2ed8ef8f574c
 ## Description
 This website shall infrom you about swimming pools with all the necessary steps to take when swimming.
 There are various types of swimming pools,different times when people like swimming and many more activities that could be done with swimming pools.
