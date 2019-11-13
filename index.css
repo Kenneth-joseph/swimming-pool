@@ -1,0 +1,22 @@
+.nav_bar ul{
+    display: flex;
+    list-style: none;
+    text-align: end;
+    justify-content: flex-end;
+    background-color:whitesmoke;
+    /* padding: 10px: */
+}
+
+
+.nav_bar ul li{
+padding: 20px;
+}
+
+.nav_bar ul li a{
+    text-decoration: none;
+    color:black;
+}
+ 
+.slid{
+/* height: 50%; */
+}
