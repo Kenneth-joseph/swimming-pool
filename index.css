@@ -38,7 +38,7 @@ color:white;
 font-family: 'Oswald', sans-serif;
 
 }
-#R_t{
+#R_t , .contact_h{
      font-family: 'Oswald', sans-serif;
      margin-top: 20px;
 }
@@ -59,6 +59,15 @@ font-family: 'Oswald', sans-serif;
 
  }
 
- SAFETY*/
+ /*footer*/
 
-  
+ .footer a{
+    padding: 40px;
+ }
+.contact{
+    background-color: grey;
+    height: 50vh;
+}
+.contact_h{
+    margin: 0% auto;
+}
