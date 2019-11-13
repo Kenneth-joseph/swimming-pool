@@ -38,6 +38,23 @@ color:white;
 font-family: 'Oswald', sans-serif;
 
 }
+#R_t{
+     font-family: 'Oswald', sans-serif;
+     margin-top: 20px;
+}
  #info_t{
  padding-top: 80px;
+ }
+
+ .crd1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
+ }
+
+
+ .crd1 ul li{
+     color: black;
+     font-family: 'Oswald', sans-serif;
+
  }
