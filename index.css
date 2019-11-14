@@ -177,3 +177,33 @@ tr {
 }
 
 /*End Styling the day list*/
+
+
+/*GALLERY*/
+
+.work{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.pd{
+    position: absolute;
+    text-align: center;
+    color:white;
+    border: 2px solid white;
+    height: 50%;
+    width: 50%;
+    font-size: 20px;
+    padding-top:35px;
+    background-color: black;
+    opacity: 0.8;
+    /* display:none; */
+
+
+    /* margin:0 auto; */
+    
+    }
+
