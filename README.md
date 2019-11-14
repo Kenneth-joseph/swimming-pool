@@ -44,6 +44,9 @@ From the technologies used, it is pretty easy to setup and download the source c
 - [x] Achieve the intended objectives (MVP) <br>
 - [x] Responsive <br>
 - [ ] Receiving emails and messages field in the forms
+- [ ] Sending Tickets to the user
+- [ ] User logins
+- [ ] Consider Membership booking difference from non-members
 
 ### Support and Contact Details
 
