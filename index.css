@@ -90,90 +90,27 @@
   width: 50%;
   margin: 0 auto;
 }
-/*Beginning Styling the day list*/
-.book {
-  display: inline-block;
+
+/*GALLERY*/
+
+.work {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.header {
+.pd {
+  position: absolute;
   text-align: center;
-  color: #777;
-}
-.collapsible {
-  background-color: #777;
   color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
+  border: 2px solid white;
+  height: 50%;
+  width: 50%;
+  font-size: 20px;
+  padding-top: 35px;
+  background-color: black;
+  opacity: 0.8;
+  /* display:none; */
 
-.active,
-.collapsible:hover {
-  background-color: #006cff;
+  /* margin:0 auto; */
 }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-}
-
-table {
-  width: 20%;
-}
-table,
-th,
-td,
-tr {
-  border: 1px solid rgb(0, 0, 0);
-  border-collapse: collapse;
-}
-* {
-  font-family: sans-serif;
-}
-
-.content-table {
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 0.9em;
-  min-width: 400px;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
-
-.content-table thead tr {
-  background-color: #414242;
-  color: #ffffff;
-  text-align: left;
-  font-weight: bold;
-}
-
-.content-table th,
-.content-table td {
-  padding: 12px 15px;
-}
-
-.content-table tbody tr {
-  border-bottom: 1px solid #dddddd;
-}
-
-.content-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
-
-.content-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
-}
-
-.content-table tbody tr.active-row {
-  font-weight: bold;
-  color: #009879;
-}
-
-/*End Styling the day list*/
