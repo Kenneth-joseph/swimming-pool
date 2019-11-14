@@ -1,16 +1,57 @@
-<<<<<<< HEAD
-=======
+## The Horizon Pool
 
->>>>>>> 499ca7506b7fb976fda93acf92db2ed8ef8f574c
-## Description
-This website shall infrom you about swimming pools with all the necessary steps to take when swimming.
-There are various types of swimming pools,different times when people like swimming and many more activities that could be done with swimming pools.
-The information provided here is well noted and is handed to you in pride knowing that it shall help you with all you need to know in order to enjoy our services cormfortably.
-Detailed  safety measures such as no diving from board and no swimming in the deep end without guidance.
+![Homepage](/images/Homepage.png "Homepage")
 
-# intro
-We have made a website which allows people to book a swimming session or book a trainer so that they can improve their swimming abilities.at Horizon pools we have ensured that the pools have a heating feature for people who like swimming at night.
+### Description
 
-## Resources
-In order for us to do this project we had to do some research from various websites eg.w3schools,stack overflow and many more.2
+This is a website that allow people to book a swimming session. This is in effort to reduce congestion in our pool. This is just an MVP of a bigger project that hope will solve congestion in swimming pools. We hope to launch an both mobile and desktop app in the near future.
 
+#### [Live Link](https://kenneth-joseph.github.io/swimming-pool/ "click here to go to the website!")
+
+##### Contributors:
+
+1. Kenneth Ochieng _(Scrum Master)_
+2. Denis Muriuki
+3. Edmund Owino
+4. Sospeter Kanyita
+5. Bior Ajang
+
+### Built with
+
+- Bootstrap
+- Javascript
+- JQUERY
+
+### Project Setup/Installation
+
+From the technologies used, it is pretty easy to setup and download the source code, all you need to do is:
+
+1. Head to your terminal and clone &nbsp; &nbsp; `git clone https://github.com/kenneth-joseph/swimming-pool.git`
+2. Navigate to the project &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `cd swimming-pool`
+3. Open it in your text editor (VS Code)`code .`
+
+### Behavior Driven Development (BDD)
+
+| Behavior | Input | Output |
+| -------- | ----- | ------ |
+|          |       |        |
+|          |       |        |
+|          |       |        |
+
+### Known issues/bugs
+
+### TODO
+
+- [x] Achieve the intended objectives (MVP) <br>
+- [x] Responsive <br>
+- [ ] Receiving emails and messages field in the forms
+
+### Support and Contact Details
+
+For any queries and suggestions please contact us info@horizonpool.co.ke
+
+### License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE "click to check the license!")
+
+Copyright &copy; 2019 [**The Horizon Pool**](https://kenneth-joseph.github.io/swimming-pool/)
