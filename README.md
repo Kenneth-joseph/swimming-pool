@@ -4,7 +4,7 @@
 
 ### Description
 
-This is a website that allow people to book a swimming session. This is in effort to reduce congestion in our pool. This is just an MVP of a bigger project that hope will solve congestion in swimming pools. We hope to launch an both mobile and desktop app in the near future.
+This is a website that allow people to book a swimming session. This is in effort to reduce congestion in our pool. This is just an MVP of a bigger project that we hope will solve congestion in swimming pools. We hope to launch both mobile and desktop app in the near future.
 
 #### [Live Link](https://kenneth-joseph.github.io/swimming-pool/ "click here to go to the website!")
 
@@ -32,11 +32,10 @@ From the technologies used, it is pretty easy to setup and download the source c
 
 ### Behavior Driven Development (BDD)
 
-| Behavior | Input | Output |
-| -------- | ----- | ------ |
-|          |       |        |
-|          |       |        |
-|          |       |        |
+| Behavior        | Input                                                 | Output                                                                    |
+| --------------- | ----------------------------------------------------- | ------------------------------------------------------------------------- |
+| User Navigation | Hit either Home,About, Book, Gallery                  | Take the user to that page                                                |
+| User Booking    | The user enter their information in the form provided | A pop of summary of the time, their name, and email to receive the ticket |
 
 ### Known issues/bugs
 
