@@ -126,7 +126,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("imag
     padding-top:35px;
     background-color: black;
     opacity: 0.8;
-    /* display:none; */
+    display:none;
 
 
     /* margin:0 auto; */
