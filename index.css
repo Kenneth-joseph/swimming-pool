@@ -76,7 +76,22 @@ font-family: 'Oswald', sans-serif;
     height: 50vh;
     color: white;
     padding-top:20px;
+    padding-left: 5em;
+    
 }
 .contact_h{
     margin: 0% auto;
+}
+
+=======
+/* BOOK */
+
+.log{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("images/g6.jpg");
+
+}
+.fom{
+    padding-top: 50px;
+    width: 50%;
+    margin: 0 auto;
 }
