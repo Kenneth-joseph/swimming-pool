@@ -134,7 +134,7 @@
   padding-top: 35px;
   background-color: black;
   opacity: 0.8;
-  /* display:none; */
+  display: none;
 
   /* margin:0 auto; */
 }
