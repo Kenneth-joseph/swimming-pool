@@ -115,12 +115,36 @@ $(Document).ready(function(){
         $(".txt8").hide(1000);
        });
 
-    $(".pic9").mouseleave(function(){
-        $(".txt9").hide(1000);
+    $(".pic9").mouseenter(function(){
+        $(".txt9").show(1000);
        });
     
     $(".pic9").mouseleave(function(){
         $(".txt9").hide(1000);
+       });
+
+       $(".pic10").mouseenter(function(){
+        $(".txt10").show(1000);
+       });
+    
+    $(".pic10").mouseleave(function(){
+        $(".txt10").hide(1000);
+       });
+
+       $(".pic11").mouseenter(function(){
+        $(".txt11").show(1000);
+       });
+    
+    $(".pic11").mouseleave(function(){
+        $(".txt11").hide(1000);
+       });
+
+       $(".pic12").mouseenter(function(){
+        $(".txt12").show(1000);
+       });
+    
+    $(".pic12").mouseleave(function(){
+        $(".txt12").hide(1000);
        });
 });
 
