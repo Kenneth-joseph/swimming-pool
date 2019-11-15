@@ -138,3 +138,34 @@
 
   /* margin:0 auto; */
 }
+/*BEGIN Booking form (Bior)*/
+.section4 {
+  font-family: "Merriweather", serif;
+  height: 500px;
+  padding-top: 35px;
+  padding-bottom: 60px;
+  color: rgb(27, 26, 5);
+}
+
+.section3 {
+  color: brown;
+}
+#summary {
+  display: none;
+}
+.section4 {
+  font-family: "Merriweather", serif;
+  height: 500px;
+  padding-top: 35px;
+  padding-bottom: 60px;
+  color: rgb(27, 26, 5);
+}
+
+.section3 {
+  color: brown;
+}
+#summary {
+  display: none;
+}
+
+/*END Booking form (Bior)*/
