@@ -73,7 +73,7 @@ font-family: 'Oswald', sans-serif;
  }
 .contact{
     background-color: grey;
-    height: 30vh;
+    /* height: 30vh; */
     color: white;
     padding-top:20px;
     
