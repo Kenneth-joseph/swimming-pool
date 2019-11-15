@@ -1,3 +1,62 @@
+let pool=function(Number,Age,floaters,Sanitaries){
+    this.Number=Number;
+    this.Sanitaries=Sanitaries;
+    this.Age=Age;
+    this.floaters=floaters;
+}
+
+   pool.prototype.Tcharges=function(){
+       return this.Number * this.Age + this.floaters + this.Sanitaries
+   }
+
+$(Document).ready(function(){
+         let Fcharges=0;
+    $("button.book").click(function(event){
+        event.preventDefault();
+        let Nnumber=  parseInt($("#Number option:selected").val()); 
+        let Nsanitaries= parseInt($("#Sanitaries option:selected").val()); 
+        let Nage= parseInt($("#Age option:selected").val()); 
+        let Nfloaters= parseInt($("#Floaters option:selected").val()); 
+
+        let Npool= new pool(Nnumber,Nage,Nfloaters,Nsanitaries);
+
+       let Scharges = (Npool.Tcharges());
+
+        Fcharges+=Scharges;
+
+
+
+      let Tnumber = $("#Number option:selected").text();
+      let Tage = $("#Age option:selected").text();
+      let Tfloaters = $("#Floaters option:selected").text();
+      let Tsanitaries = $("#Sanitaries option:selected").text();
+
+      $("tbody:last").append("<tr>"+"<td>"+Tnumber+"</td>"+"<td>"+Tage+"</td>"+"<td>" +Tfloaters+ "</td>" +"<td>"+Tsanitaries+ "</td>" + "<td>" + Scharges +"</td>"+"</tr>")
+
+    
+    });
+
+    $("button#final").click(function(event){
+        $("#price:last").text(Fcharges);
+        // $("#last").show();
+        var nName= $("#nameO").val();
+        // var nlocation=$("#loc").val();
+        
+            alert("thanks " + nName + " for booking our swimming pool enjoy our services as we look forward to make it more enhanced. the next booking will be in 2 hours");
+      
+
+    })
+ 
+})
+
+
+
+
+
+
+
+
+
 $(Document).ready(function(){
     $(".pic1").mouseenter(function(){
         $(".txt1").show(2000);
@@ -64,3 +123,7 @@ $(Document).ready(function(){
         $(".txt9").hide(1000);
        });
 });
+
+
+
+
