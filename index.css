@@ -45,7 +45,7 @@ color:white;
 font-family: 'Oswald', sans-serif;
 
 }
-#R_t , .contact_h, .about{
+#R_t , .contact_h, .about, .g_head{
      font-family: 'Oswald', sans-serif;
      margin-top: 20px;
 }
@@ -73,17 +73,15 @@ font-family: 'Oswald', sans-serif;
  }
 .contact{
     background-color: grey;
-    height: 50vh;
+    height: 30vh;
     color: white;
     padding-top:20px;
-    padding-left: 5em;
     
 }
 .contact_h{
     margin: 0% auto;
 }
 
-=======
 /* BOOK */
 
 .log{
@@ -94,4 +92,43 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),url("imag
     padding-top: 50px;
     width: 50%;
     margin: 0 auto;
+    text-align: center;
 }
+
+.fomm{
+    padding-top: 40px;
+    width: 50%;
+    margin: 0 auto;
+    background-color:;
+
+}
+
+
+
+/*GALLERY*/
+
+.work{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.pd{
+    position: absolute;
+    text-align: center;
+    color:white;
+    border: 2px solid white;
+    height: 50%;
+    width: 50%;
+    font-size: 20px;
+    padding-top:35px;
+    background-color: black;
+    opacity: 0.8;
+    display:none;
+
+
+    /* margin:0 auto; */
+    
+    }
